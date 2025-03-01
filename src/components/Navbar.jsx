@@ -20,7 +20,7 @@ function Navbar() {
             Testimonials
           </a>
         </ul>
-        <button className="hidden md:block bg-white px-8 py-2 rounded-full">
+        <button className="hidden cursor-pointer md:block bg-white px-8 py-2 rounded-full">
           Sign Up
         </button>
       </div>
