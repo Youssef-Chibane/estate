@@ -16,6 +16,27 @@ const Projects = () => {
       <p className="text-center text-gray-500 mb-8 max-w-80 mx-auto">
         Crafting Spaces, Building Legacies-Explore Our Portfolio
       </p>
+
+      {/* slider buttons */}
+
+      <div className="flex justify-end items-center mb-8">
+        <button>
+          <img
+            src={assets.left_arrow}
+            alt="Previous"
+            className="p-3 bg-gray-200 rounded mr-2"
+            aria-label="Previous Project"
+          />
+        </button>
+        <button>
+          <img
+            src={assets.right_arrow}
+            alt="Next"
+            className="p-3 bg-gray-200 rounded mr-2"
+            aria-label="Next Project"
+          />
+        </button>
+      </div>
     </div>
   );
 };
