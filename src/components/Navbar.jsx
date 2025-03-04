@@ -36,9 +36,6 @@ function Navbar() {
             Testimonials
           </a>
         </ul>
-        <button className="hidden cursor-pointer md:block bg-white px-8 py-2 rounded-full">
-          Sign Up
-        </button>
         <img
           onClick={() => setShoMobileMenu(true)}
           src={assets.menu_icon}
